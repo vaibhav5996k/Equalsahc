@@ -13,6 +13,10 @@ public class CarTest {
 
     @Test
     public void stringShouldBeEqual(){
+        String hello1= "Hello";
+        String hello2= "Hello";
+
+        assertTrue(hello1==hello2);
 
     }
 
